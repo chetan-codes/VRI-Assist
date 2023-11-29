@@ -1,0 +1,15 @@
+<div class="medical-file-upload-component">
+    <h1>Medical File Upload</h1>
+    <div class="drag-drop-zone">
+      <p>Drag and drop your medical file here</p>
+      <input type="file" multiple (change)="onFileSelected($event)">
+    </div>
+    <div class="upload-progress-bar">
+      <div class="progress-bar" [style.width]="uploadProgress + '%'"></div>
+    </div>
+    <button type="button" (click)="uploadFile()">Upload File</button>
+    <div class="upload-success-message" *ngIf="uploadSuccess">
+      <p>Your medical file has been uploaded successfully!</p>
+    </div>
+  </div>
+  
