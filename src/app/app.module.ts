@@ -10,6 +10,7 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CognitiveAssesmentComponent } from './cognitive-assesment/cognitive-assesment.component';
 import { MotorAssesmentComponent } from './motor-assesment/motor-assesment.component';
+import { AnalyticalReprtComponent } from './analytical-reprt/analytical-reprt.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MotorAssesmentComponent } from './motor-assesment/motor-assesment.compo
     FileUploadComponent,
     DashboardComponent,
     CognitiveAssesmentComponent,
-    MotorAssesmentComponent
+    MotorAssesmentComponent,
+    AnalyticalReprtComponent
   ],
   imports: [
     BrowserModule,

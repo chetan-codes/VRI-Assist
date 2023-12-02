@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MotorAssesmentComponent } from './motor-assesment.component';
+import { MotorAssessmentComponent } from './motor-assessment.component';
 
 describe('MotorAssesmentComponent', () => {
-  let component: MotorAssesmentComponent;
-  let fixture: ComponentFixture<MotorAssesmentComponent>;
+  let component: MotorAssessmentComponent;
+  let fixture: ComponentFixture<MotorAssessmentComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MotorAssesmentComponent]
+      declarations: [MotorAssessmentComponent]
     });
-    fixture = TestBed.createComponent(MotorAssesmentComponent);
+    fixture = TestBed.createComponent(MotorAssessmentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CognitiveAssesmentComponent } from './cognitive-assesment.component';
+import { CognitiveAssessmentComponent } from './cognitive-assesment.component';
 
 describe('CognitiveAssesmentComponent', () => {
-  let component: CognitiveAssesmentComponent;
-  let fixture: ComponentFixture<CognitiveAssesmentComponent>;
+  let component: CognitiveAssessmentComponent;
+  let fixture: ComponentFixture<CognitiveAssessmentComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CognitiveAssesmentComponent]
+      declarations: [CognitiveAssessmentComponent]
     });
-    fixture = TestBed.createComponent(CognitiveAssesmentComponent);
+    fixture = TestBed.createComponent(CognitiveAssessmentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -5,7 +5,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CognitiveAssessmentComponent } from './cognitive-assesment/cognitive-assesment.component';
+import { CognitiveAssessmentComponent } from './cognitive-assessment/cognitive-assesment.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent }, // Set LandingPageComponent as initial route
