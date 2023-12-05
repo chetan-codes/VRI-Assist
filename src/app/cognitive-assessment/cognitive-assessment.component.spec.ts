@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CognitiveAssessmentComponent } from './cognitive-assesment.component';
+import { CognitiveAssessmentComponent } from './cognitive-assessment.component';
 
 describe('CognitiveAssesmentComponent', () => {
   let component: CognitiveAssessmentComponent;

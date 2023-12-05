@@ -1,14 +1,18 @@
 <div class="registration-form">
-    <div class="header">
-      <h1>Register for VRI Assist</h1>
-    </div>
-    <form>
-      <input type="text" placeholder="First Name" />
-      <input type="text" placeholder="Last Name" />
-      <input type="email" placeholder="Email Address" />
-      <input type="password" placeholder="Password" />
-      <input type="password" placeholder="Confirm Password" />
-      <button type="submit">Register</button>
-    </form>
+  <div class="header">
+    <h1>Register for VRI Assist</h1>
+    <img src="assets\Logo.PNG" alt="VRI-Logo" style="width: 30%">
   </div>
-  
+  <form>
+    <input type="text" placeholder="First Name" />
+    <input type="text" placeholder="Last Name" />
+    <input type="email" placeholder="Email Address" />
+    <input type="password" placeholder="Password" />
+    <input type="password" placeholder="Confirm Password" />
+    <button type="submit">Register</button>
+  </form>
+
+  <div class="login-link">
+    <p>Already a user? <a [routerLink]="['/login']">Login!</a></p>
+  </div>
+</div>

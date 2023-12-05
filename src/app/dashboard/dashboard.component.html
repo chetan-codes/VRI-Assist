@@ -1,23 +1,32 @@
 <div class="dashboard-container">
-    <div class="header">
-      <h1>Medical History Dashboard</h1>
+  <div class="header">
+    <h1>Medical History Dashboard</h1>
+  </div>
+  <div class="main">
+    <div class="card">
+      <i class="fas fa-notes-medical"></i>
+      <h2>Your Medical History</h2>
+      <p>This section displays your medical history, including your medical conditions, medications, and allergies.</p>
+      <a [routerLink]="['/file_upload']" class="btn btn-primary">View Medical History</a>
     </div>
-    <div class="main">
-      <div class="card">
-        <h2>Your Medical History</h2>
-        <p>This section displays your medical history, including your medical conditions, medications, and allergies.</p>
-        <a routerLink="/medical-history" class="btn btn-primary">View Medical History</a>
-      </div>
-      <div class="card">
-        <h2>Your Appointments</h2>
-        <p>This section displays your upcoming and past appointments.</p>
-        <a routerLink="/appointments" class="btn btn-primary">View Appointments</a>
-      </div>
-      <div class="card">
-        <h2>Your Medications</h2>
-        <p>This section displays your current medications, including the dosage and frequency.</p>
-        <a routerLink="/medications" class="btn btn-primary">View Medications</a>
-      </div>
+    <div class="card">
+      <i class="fas fa-brain"></i>
+      <h2>Cognitive Assessment</h2>
+      <p>This section displays your cognitive assessment results.</p>
+      <a [routerLink]="['/cognitive_assesment']" class="btn btn-primary">View Cognitive Assessment</a>
+    </div>
+    <div class="card">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-running"></i>
+      <h2>Motor Assessment</h2>
+      <p>This section displays your motor assessment results.</p>
+      <a [routerLink]="['/motor_assesment']" class="btn btn-primary">View Motor Assessment</a>
+    </div>
+    <div class="card">
+      <i class="fas fa-chart-bar"></i>
+      <h2>Analytical Report</h2>
+      <p>This section displays an analytical report based on medical records and assessment data.</p>
+      <a [routerLink]="['/analytical_report']" class="btn btn-primary">View Analytical Report</a>
     </div>
   </div>
-  
+</div>

@@ -8,9 +8,9 @@ import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CognitiveAssesmentComponent } from './cognitive-assesment/cognitive-assesment.component';
-import { MotorAssesmentComponent } from './motor-assesment/motor-assesment.component';
-import { AnalyticalReprtComponent } from './analytical-reprt/analytical-reprt.component';
+import { CognitiveAssessmentComponent } from './cognitive-assessment/cognitive-assessment.component';
+import { MotorAssessmentComponent } from './motor-assessment/motor-assessment.component';
+import { AnalyticalReportComponent } from './analytical-report/analytical-report.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { AnalyticalReprtComponent } from './analytical-reprt/analytical-reprt.co
     LoginComponent,
     FileUploadComponent,
     DashboardComponent,
-    CognitiveAssesmentComponent,
-    MotorAssesmentComponent,
-    AnalyticalReprtComponent
+    CognitiveAssessmentComponent,
+    MotorAssessmentComponent,
+    AnalyticalReportComponent,
   ],
   imports: [
     BrowserModule,
