@@ -1,27 +1,33 @@
+
 # VriAssist
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+VriAssist is a comprehensive platform for conducting motor and cognitive assessments, generating reports, and managing medical and health records.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+VriAssist utilizes Angular CLI version 16.2.4, along with HTML5, CSS, and TypeScript, to provide a user-friendly interface for seamless interaction with its features.
 
-## Code scaffolding
+## Development Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To start the development server, run `ng serve`. Navigate to `http://localhost:4200/` to access the application. The server automatically reloads upon any source file changes.
+
+## Code Scaffolding
+
+Generate new components using `ng generate component component-name`. Additionally, you can create directives, pipes, services, classes, guards, interfaces, enums, or modules using the Angular CLI.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` to compile and build the project. The build artifacts are stored in the `dist/` directory.
 
-## Running unit tests
+## Running Unit Tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute unit tests via Karma. Ensure robustness and reliability of the codebase with automated testing.
 
-## Running end-to-end tests
+## Running End-to-End Tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute `ng e2e` to run end-to-end tests on a platform of your choice. Note that you may need to add a package implementing end-to-end testing capabilities before using this command.
 
-## Further help
+## Further Help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For additional assistance with the Angular CLI, utilize `ng help` or refer to the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
